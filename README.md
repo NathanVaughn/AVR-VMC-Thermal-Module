@@ -1,7 +1,7 @@
 # AVR-VMC-Thermal-Module
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Build Thermal Module](https://github.com/bellflight/AVR-VMC-Thermal-Module/actions/workflows/build.yml/badge.svg)](https://github.com/bellflight/AVR-VMC-Thermal-Module/actions/workflows/build.yml)
+[![Build Thermal Module](https://github.com/nathanvaughn/AVR-VMC-Thermal-Module/actions/workflows/build.yml/badge.svg)](https://github.com/nathanvaughn/AVR-VMC-Thermal-Module/actions/workflows/build.yml)
 
 The Thermal module is responsible for capturing thermal images from the thermal
 camera and publishing them over MQTT.
@@ -27,7 +27,7 @@ poetry self add poetry-pre-commit-plugin
 Now, you can clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/bellflight/AVR-VMC-Thermal-Module
+git clone https://github.com/nathanvaughn/AVR-VMC-Thermal-Module
 cd AVR-VMC-Thermal-Module
 vtr install
 ```
